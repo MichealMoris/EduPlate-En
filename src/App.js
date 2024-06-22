@@ -15,7 +15,7 @@ function App() {
           <p className='lead'>Learning Shouldn't Be a Drag. Find Your Perfect Tutor Today!</p>
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className='btn btn-warning p-2 action-btn'>
             <i class="bi bi-whatsapp me-1"></i>
-            Chat on WhatsApp
+            Contact us on WhatsApp
           </a>
         </div>
         <div className="col-md-6 d-md-inline d-none">

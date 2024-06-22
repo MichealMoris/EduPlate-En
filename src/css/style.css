@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins.ttf') format("truetype");
+}
+
+
+body {
+    background: #F2F2F2;
+    padding: 0.5rem;
+}
+
+* {
+    font-family: 'Poppins';
+    color: color(srgb 0.2237 0.2154 0.2279);
+}
+
+.action-btn {
+    border-radius: 16px !important;
+    background-color: #FEC460 !important;
+}
+
+
+.custom-card {
+    border-radius: 15px;
+    height: 100% !important;
+    color: #252525;
+}
+
+.custom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-card .card-title {
+    font-weight: bold;
+}
+
+.custom-card .card-text {
+    font-size: 0.8rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
